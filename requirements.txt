@@ -1,0 +1,34 @@
+# Notebook runtime
+jupyterlab
+ipykernel
+nest-asyncio
+
+# Environment variables
+python-dotenv
+
+# LlamaIndex core and integrations used by Note/NewNote notebooks
+llama-index-core
+llama-index-readers-file
+llama-index-readers-web
+llama-index-readers-wikipedia
+llama-index-llms-cohere
+llama-index-embeddings-cohere
+llama-index-llms-ollama
+llama-index-embeddings-ollama
+llama-index-vector-stores-faiss
+llama-index-vector-stores-chroma
+
+# Vector stores
+faiss-cpu
+chromadb
+
+# Ollama models are not Python packages.
+# Ollama notebooks include a model-prep cell that runs `ollama pull` when needed.
+
+# Data/file readers used by the examples
+pandas
+openpyxl
+pypdf
+docx2txt
+pillow
+wikipedia
